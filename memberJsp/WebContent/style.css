@@ -1,0 +1,67 @@
+@charset "EUC-KR";
+
+/*
+-webkit-box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.27);
+-moz-box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.27);
+box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.27);
+Copy Text
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.lcontainer{
+	width:400px;
+	height:210px;
+	margin: 20px auto;	
+	padding: 15px 20px 10px 20px;
+	box-sizing: border-box;
+	box-shadow: -1px 10px 10px -3px rgba(0,0,0,0.27);
+}
+
+.lcontainer h2{
+	text-align: center;
+}
+
+.lcontainer input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin:10px 0;
+	padding:5px;
+}
+
+.lcontainer a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 3px 7px;
+	box-shadow: -1px 10px 10px -7px rgba(0,0,0,0.27);
+}
+
+.lcontainer a:hover{
+	color:white;
+	background: black;
+	transition: all 0.35s;
+}
+
+.lcontainer a:last-child {
+	float: right;
+}
+
+.lcontainer a:last-child:after{
+	content: "";
+	display: block;
+	float:clear;
+}
+
+.submit-and-signup{
+	margin-top:20px;
+}
+
+.lcontainer input:focus {
+	outline: none;
+}
